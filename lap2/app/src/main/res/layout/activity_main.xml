@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nút chọn Bài 1 -->
+    <Button
+        android:id="@+id/btnOpenTask1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài tập 1"
+        android:layout_marginTop="16dp" />
+
+    <!-- Nút chọn Bài 2 -->
+    <Button
+        android:id="@+id/btnOpenTask2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài tập 2"
+        android:layout_marginTop="16dp" />
+
+    <!-- Nút chọn Bài 3 -->
+    <Button
+        android:id="@+id/btnOpenTask3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài tập 3"
+        android:layout_marginTop="16dp" />
+    <!-- Nút chọn Bài 4 -->
+    <Button
+    android:id="@+id/btnOpenTask4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Bài tập 4"
+    android:layout_marginTop="16dp" />
+    <!-- Nút chọn Bài 5 -->
+    <Button
+        android:id="@+id/btnOpenTask5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài tập 5"
+        android:layout_marginTop="16dp" />
+    <Button
+        android:id="@+id/btnOpenTask6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài tập 6"
+        android:layout_marginTop="16dp" />
+
+
+</LinearLayout>

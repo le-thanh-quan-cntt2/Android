@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chương trình tính chỉ số BMI"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:background="#008000"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên: "
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cân nặng (kg)"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp" />
+
+
+    <EditText
+        android:id="@+id/etHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chiều cao(m)"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/btnCalculateBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính BMI"
+        android:layout_marginTop="16dp" />
+
+
+    <TextView
+        android:id="@+id/tvBMIResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI: "
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+
+    <TextView
+        android:id="@+id/tvDiagnosis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chuẩn đoán: "
+        android:textSize="18sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

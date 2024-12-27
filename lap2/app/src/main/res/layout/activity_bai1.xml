@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fahrenheit"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp" />
+    <EditText
+        android:id="@+id/etCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Celsius"
+        android:inputType="numberDecimal" />
+
+
+
+    <Button
+        android:id="@+id/btnConvertToCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert to Celsius"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnConvertToFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert to Fahrenheit"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
